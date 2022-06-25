@@ -1,0 +1,137 @@
+*{
+    height:98%;
+    width:99%;
+   
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+   height:90%;
+   width: 100%;
+   
+    
+    display: grid;
+    /* grid-template-rows: repeat(3,5fr);
+    grid-template-columns: repeat(3,5fr); */
+    grid-template-rows: 193px 193px 193px;
+    grid-template-columns: 343px 343px 343px ;
+    row-gap:75px ;
+    column-gap: 2px;
+justify-items: center;
+justify-content: center;
+align-content: center;
+
+
+    
+}
+.item{
+    position: relative;
+    width: 85%;
+    -webkit-box-shadow: 0px -1px 48px -20px rgba(176,173,176,1);
+-moz-box-shadow: 0px -1px 48px -20px rgba(176,173,176,1);
+box-shadow: 0px -1px 48px -20px rgba(176,173,176,1);
+    height: 225px;
+    background-color: white;
+    margin-top: 28%;
+    border-radius: 10px;
+}
+#cont1{
+    box-sizing: border-box;
+    text-align: center;
+    background-image: linear-gradient(to right,#f43d68,#2d9dbc);
+    color:white;
+    font-weight:600;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    padding-top: 45px;
+}
+#cont2{
+    box-sizing: border-box;
+    
+    display: flex;
+    padding-top: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#text{
+    font-size: 13px;
+    color: #767272;
+}
+
+#getstart{
+    color:#c90a37;
+    font-size: 13px;
+}
+.cs{
+    position: absolute;
+    top: -27px;
+    border-radius: 50%;
+   
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+  
+ 
+   
+}
+.cs img{
+    
+    border-radius: 50%;
+    background-image: linear-gradient(to top,#f43d68,#2d9dbc);;
+    width: 55px;
+    height: 53px;
+   color: white;
+     
+    
+    
+}
+#displaytext{
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 96%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: space-around;
+    margin-left: 70px;
+    
+    padding-left: 200px;
+
+}
+#display{
+    height: 30px;
+    width: 200px;
+    
+}
+#displaytext button{
+    width: 100px;
+    height: 27px;
+    margin-top: 32px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right,#f43d68,#2d9dbc);
+    color: white;
+    font-weight: bold;
+    
+  
+}
+#inputtext{
+margin-top: 10px;
+height: 30px;
+width: 200px;
+
+
+}
+#displaytext button:hover{
+    cursor: pointer;
+}
+#outputtext{
+    width: 200px;
+    
+
+}
